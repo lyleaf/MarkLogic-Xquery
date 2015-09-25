@@ -4,3 +4,4 @@ xquery version "1.0-ml";
       at "/MarkLogic/views.xqy";
  
   view:schema-create("main", ())
+  view:remove("main", "songs")
